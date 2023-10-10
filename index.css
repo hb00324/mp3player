@@ -62,17 +62,19 @@
     width: 100%;
     height: 6px;
     border-radius: 6px;
-    background-color: #C93B76;
+    background-color: ivory;
+    overflow:hidden;
 }
 
 .contant>.ctrl-btn-wrap>input::-webkit-slider-thumb {
     appearance: none;
-    background-color: ivory;
-    padding: 4px;
-    width: 2px;
-    height: 2px;
     border-radius: 20px;
-    border: #C93B76 5px solid;
+    height: 6px;
+    width: 4px;
+    background-color: #C93B76;
+    box-shadow: -400px 0 0 400px #C93B76;
+
+
 }
 
 
