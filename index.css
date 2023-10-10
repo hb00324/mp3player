@@ -8,6 +8,9 @@
 }
 
 .wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 5em;
     width: 100%;
     background: linear-gradient(45deg, hsla(304, 21%, 47%, 1) 0%, hsla(248, 70%, 17%, 1) 100%);
