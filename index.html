@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mp3player</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/a0adcd3fa8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="contant">
+            <div class="img-wrap">
+                <img src="cover-1.png" id="toggleImg" alt="">
+            </div>
+            <audio src="forest.mp3" id="song"></audio>
+            <audio src="lost-in-city-lights-145038.mp3" id="song2"></audio>
+            <h1 id="songTitle">Lost in the City Lights</h1>
+            <p id="songContent">Cosmo Sheldrake</p>
+            <div class="time-wrap">
+                <div class="currentTime"><p id="currentTime">11:11</p></div><div class="durationTime"><p id="durationTime">11:11</p></div>
+            </div>
+            <div class="ctrl-btn-wrap">
+                <input type="range" id="progress">
+                <div class="ctrl-btn">
+                    <div><i id="backWrad" class="fa-solid fa-backward"></i></div>
+                    <div><i id="playPause" class="fa-solid fa-play"></i></div>
+                    <div><i id="forWrad" class="fa-solid fa-forward"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
