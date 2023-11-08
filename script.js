@@ -73,6 +73,7 @@ playPause.addEventListener('click',()=>{
 })
 
 if(currentSong.play){
+    //秒數轉換成分鐘
     setInterval(function(){
         progress.value = currentSong.currentTime;  //currentTime song現在的時間
         progress.max = currentSong.duration;
@@ -88,6 +89,7 @@ if(currentSong.play){
 };
 
 progress.onchange = function (){
+    //html controlbar 轉換成input range 
     currentSong.play();
     currentSong.currentTime = progress.value;  //順序為 歌曲播放後song.currentTime 會等於 progress.value
     currentSong.duration = progress.max;

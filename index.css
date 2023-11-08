@@ -14,8 +14,10 @@
     padding-top: 5em;
     width: 100%;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#764077+0,274589+100 */
-    background: linear-gradient(45deg, hsla(299, 30%, 36%, 1) 0%, hsla(222, 56%, 35%, 1) 100%);
+    /* background: linear-gradient(45deg, hsla(299, 30%, 36%, 1) 0%, hsla(222, 56%, 35%, 1) 100%); */
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    background: linear-gradient(45deg, rgba(79,55,71,1) 0%,rgba(40,64,94,1) 100%);
 
     height: 100vh;
 }
